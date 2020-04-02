@@ -1,13 +1,18 @@
 import React from "react";
+
+import useThursdaySchedule from "../../../hooks/useThursdaySchedule";
 import useFridaySchedule from "../../../hooks/useFridaySchedule";
+import useSaturdaySchedule from "../../../hooks/useSaturdaySchedule";
+import useSundaySchedule from "../../../hooks/useSundaySchedule";
 import SchedEvent from "./schedEvent";
 
 const EventList = (props) => {
 
     const days = {
-        friday: useFridaySchedule(),
-        //saturday: useSaturdaySchedule(),
-        //sunday: useSundaySchedule()
+        weekThursday: useThursdaySchedule(),
+        weekFriday: useFridaySchedule(),
+        weekSaturday: useSaturdaySchedule(),
+        weekSunday: useSundaySchedule()
     }
 
     return(

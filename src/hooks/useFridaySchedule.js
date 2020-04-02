@@ -1,6 +1,6 @@
 import { useStaticQuery, graphql } from 'gatsby';
 
-const useFridaySchedule = (date) => {
+const useFridaySchedule = () => {
 
     const sectionData = useStaticQuery(graphql`
     {

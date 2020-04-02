@@ -37,6 +37,8 @@ class HomePage extends React.Component {
                     <HomeHeroContainer />
                     <HomeTitle title="Schedule" />
                     <ScheduleContainer />
+                    <HomeTitle title="Updates" />
+                    <HomeTitle title="Info" />
                 </Layout>
             </div>
 

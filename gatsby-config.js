@@ -28,7 +28,7 @@ module.exports = {
         // This is field under which it's accessible
         fieldName: `wpgraphql`,
         // Url to query from
-        url: `https://csiconference.org/graphql`,
+        url: `https://centerforinquiry.org/csicon/graphql`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
