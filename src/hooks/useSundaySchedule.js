@@ -5,7 +5,7 @@ const useSundaySchedule = () => {
     const sectionData = useStaticQuery(graphql`
     {
         wpgraphql {
-            events(where: {categoryName: "5-sunday-october-20th"}) {
+            events(where: {categoryName: "5-sunday-october-18th"}) {
                 edges {
                     node {
                         title

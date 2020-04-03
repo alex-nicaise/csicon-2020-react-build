@@ -11,6 +11,7 @@ import HomeTitle from "../components/homePage/homeTitle";
 import HomeFullWButton from "../components/homePage/homeFullWButton";
 import HomeHeroContainer from "../components/homePage/homeHeroContainer";
 import ScheduleContainer from "../components/homePage/schedule/scheduleContainer";
+import InfoSection from "../components/homePage/infoSection";
 
 class HomePage extends React.Component {
 
@@ -39,6 +40,7 @@ class HomePage extends React.Component {
                     <ScheduleContainer />
                     <HomeTitle title="Updates" />
                     <HomeTitle title="Info" />
+                    <InfoSection />
                 </Layout>
             </div>
 

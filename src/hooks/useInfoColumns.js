@@ -18,9 +18,7 @@ const useRegisterHero = () => {
                             }
                         }
                         featuredImage {
-                            mediaDetails {
-                                file
-                            }
+                            sourceUrl
                         }
                     }
                 }

@@ -9,7 +9,7 @@ class ScheduleContainer extends React.Component {
             selected: {
                 day: "weekThursday",
                 accNum: "Zero",
-                date: "Thursday, October 17th"
+                date: "Thursday, October 15th"
             }
         }
         
@@ -20,7 +20,7 @@ class ScheduleContainer extends React.Component {
         this.setState({selected: {
             day: "weekThursday",
             accNum: "Zero",
-            date: "Thursday, October 17th"
+            date: "Thursday, October 15th"
         }})
     }
 
@@ -41,30 +41,30 @@ class ScheduleContainer extends React.Component {
                 <button 
                     id="weekThursday" 
                     name="Zero" 
-                    value="Thursday, October 17th" 
+                    value="Thursday, October 15th" 
                     onClick={this.handleClick} 
-                    className={this.state.selected.day === "weekThursday" ? "btn light-green-button" : "btn light-purp-button"}>OCT. 17</button>
+                    className={this.state.selected.day === "weekThursday" ? "btn light-green-button" : "btn light-purp-button"}>OCT. 15</button>
 
                 <button 
                     id="weekFriday" 
                     name="One" 
-                    value="Friday, October 18th" 
+                    value="Friday, October 16th" 
                     onClick={this.handleClick} 
-                    className={this.state.selected.day === "weekFriday" ? "btn light-green-button" : "btn light-purp-button"}>OCT. 18</button>
+                    className={this.state.selected.day === "weekFriday" ? "btn light-green-button" : "btn light-purp-button"}>OCT. 16</button>
 
                 <button 
                     id="weekSaturday" 
                     name="Two" 
-                    value="Saturday, October 19th" 
+                    value="Saturday, October 17th" 
                     onClick={this.handleClick} 
-                    className={this.state.selected.day === "weekSaturday" ? "btn light-green-button" : "btn light-purp-button"}>OCT. 19</button>
+                    className={this.state.selected.day === "weekSaturday" ? "btn light-green-button" : "btn light-purp-button"}>OCT. 17</button>
 
                 <button 
                     id="weekSunday" 
                     name="Three" 
-                    value="Sunday, October 20th" 
+                    value="Sunday, October 18th" 
                     onClick={this.handleClick} 
-                    className={this.state.selected.day === "weekSunday" ? "btn light-green-button" : "btn light-purp-button"}>OCT. 20</button>
+                    className={this.state.selected.day === "weekSunday" ? "btn light-green-button" : "btn light-purp-button"}>OCT. 18</button>
 
             </div>
             <div className="row">
