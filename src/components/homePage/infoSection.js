@@ -11,7 +11,7 @@ const InfoSection = () => {
                     let nd = edge.node;
 
                     return(
-                        <InfoMod name={nd.title} exc={nd.pageInfoBoxes.excerpt} pic={nd.featuredImage.sourceUrl} buttons={nd.pageInfoBoxes.buttons} />
+                        <InfoMod key={nd.title} name={nd.title} exc={nd.pageInfoBoxes.excerpt} pic={nd.featuredImage.sourceUrl} buttons={nd.pageInfoBoxes.buttons} />
                     )
                 })
             }

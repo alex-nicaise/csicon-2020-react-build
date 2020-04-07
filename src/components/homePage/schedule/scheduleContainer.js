@@ -67,7 +67,7 @@ class ScheduleContainer extends React.Component {
                     className={this.state.selected.day === "weekSunday" ? "btn light-green-button" : "btn light-purp-button"}>OCT. 18</button>
 
             </div>
-            <div className="row">
+            <div className="row" id="sched-row">
                 <EventList accNum={this.state.selected.accNum} day={this.state.selected.day} date={this.state.selected.date} />
             </div>
             </>

@@ -18,6 +18,16 @@ nav.navbar{
     z-index: 9999;
 }
 
+button.nav-link{
+    color: white;
+    background: transparent;
+    border: none;
+}
+
+button.nav-link:hover{
+    color: #999;
+}
+
 .btn-row{
     display: flex;
     justify-content: center;
@@ -139,7 +149,30 @@ nav.navbar{
     color: white;
 }
 
+/*Speakers ############################ */
+
+#sched-row{
+    justify-content: center;
+    padding: 15px;
+}
+
+#sched-row .col-12{
+    max-width: 700px;
+    box-shadow: var(--big-shadow);
+    border-radius: 10px;
+}
+
+#sched-row .col-12 .card:first-of-type{
+    border-radius: 10px 10px 0 0;
+    border: 0px;
+  }
+  
+#sched-row .col-12 .card:last-of-type{
+    border-radius: 0 0 10px 10px;
+}
+
 /*Info Columns ############################ */
+
 #info-sec{ justify-content: center; }
 
 #info-sec .col-12.col-lg-4{
@@ -162,6 +195,12 @@ nav.navbar{
     display: block;
     margin: auto;
     margin-bottom: 50px;
+}
+
+/*Hotel Page ############################ */
+.page-template-hotel-page img{
+    max-width: 100% !important;
+    height: auto;
 }
 
 

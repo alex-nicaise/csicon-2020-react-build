@@ -5,10 +5,10 @@ const Footer = () => {
 
 
         <footer className="content background">
-            <a className="mx-2 mt-lg-0 mt-lg-2" href="#">
+            <a className="mx-2 mt-lg-0 mt-lg-2" href="/">
               <button className="btn green-button">Register</button>
             </a>
-            <a className="mx-2 mt-lg-0 mt-lg-2" href="#">
+            <a className="mx-2 mt-lg-0 mt-lg-2" href="/">
               <button className="btn green-button">Registration Closed</button>
             </a>
             <hr />

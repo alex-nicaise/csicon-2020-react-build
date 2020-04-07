@@ -13,9 +13,7 @@ const useAllSpeakers = () => {
                         speakers {
                             shortBio
                             speakerImage {
-                                mediaDetails {
-                                    file
-                                }
+                                sourceUrl(size: LARGE)
                             }
                         }
                         speakerId

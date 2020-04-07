@@ -9,14 +9,14 @@ const InfoMod = (props) => {
     return(
 
         <div className="col-12 col-lg-4">
-            <div class="info-mod">
+            <div className="info-mod">
                 <img src={props.pic}></img>
                 <h4>{props.title}</h4>
                 <span dangerouslySetInnerHTML={createMarkup()}></span>
                 {
                     props.buttons.map((button)=>{
                         return(
-                            <a href={button.buttonLink} className={button.buttonStyle === "solid" ? "btn green-button" : "btn green-button-outline"}> {button.buttonText} </a>
+                            <a key={button.buttonText} href={button.buttonLink} className={button.buttonStyle === "solid" ? "btn green-button" : "btn green-button-outline"}> {button.buttonText} </a>
                         )
                     })
                 }

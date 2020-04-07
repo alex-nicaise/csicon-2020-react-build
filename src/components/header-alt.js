@@ -1,7 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { Link } from "gatsby";
 
-const Header = () => {
+const HeaderAlt = () => {
 
     return (
         
@@ -29,19 +30,19 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-lg-auto">
                         <li className="nav-item mx-auto mr-lg-2">
-                            <button className="nav-link" onClick={(e) => e.preventDefault()} id="speakers-link">Speakers</button>
+                            <Link className="nav-link" to="/#speakers-header" id="speakers-link">Speakers</Link>
                         </li>
                         <li className="nav-item mx-auto x-lg-2">
-                            <button className="nav-link" onClick={(e) => e.preventDefault()} id="schedule-link">Schedule</button>
+                            <Link className="nav-link" to="/#schedule-header" id="schedule-link">Schedule</Link>
                         </li>
                         <li className="nav-item mx-auto mx-lg-2">
-                            <button className="nav-link" onClick={(e) => e.preventDefault()} id="updates-link">Updates</button>
+                            <Link className="nav-link" to="/#updates-header" id="updates-link">Updates</Link>
                         </li>
                         <li className="nav-item mx-auto mx-lg-2">
-                            <button className="nav-link" onClick={(e) => e.preventDefault()} id="info-link">Info</button>
+                            <Link className="nav-link" to="/#info-header" id="info-link">Info</Link>
                         </li>
                         <li className="nav-item mx-auto ml-lg-2">
-                            <a className="btn white-button-outline" href="/">Register</a>
+                            <Link className="btn white-button-outline">Register</Link>
                         </li>
                     </ul>
                 </div>
@@ -51,4 +52,4 @@ const Header = () => {
     );
 }
 
-export default Header;
+export default HeaderAlt;

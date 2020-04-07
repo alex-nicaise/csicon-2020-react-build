@@ -1,13 +1,17 @@
 import React from "react";
+import { Link } from "gatsby";
 
 const HomeFullWButton = (props) =>{
-    return (
+    if(props.linkTo !== null){
+        return (
 
         <div className="btn-row row">
-            <a href={props.link} className="btn grey-button" id="speakers-btn">{props.text}</a>
+            <Link to={props.linkTo} className="btn grey-button" id="speakers-btn">{props.text}</Link>
         </div>
 
     );
+    }
+    
 }
 
 export default HomeFullWButton;
